@@ -1,5 +1,5 @@
 from turtle import *
-speed(50)
+tracer(10)
 
 penup()
 goto(-600, -550)
