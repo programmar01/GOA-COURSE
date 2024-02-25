@@ -29,7 +29,6 @@
     height: 200px;
     width: 300px;
     margin: 2.5rem;
-
     background-color: red;
     transition: 10s , 10s;
     transform: 10s;
@@ -48,8 +47,6 @@
     background-color: red;
     transition: 10s , 10s;
     transform: 10s;
-    transition-delay: 1s;
-
 
 }
 .child3:hover{
@@ -57,3 +54,18 @@
     height: 300px;
     transform: rotate(720deg);
 }
+.child4{
+    height: 200px;
+    width: 300px;
+    margin: 2.5rem;
+    background-color: red;
+    transition: 10s , 10s;
+    transform: 10s;
+
+}
+.child4:hover{
+    width: 400px;
+    height: 300px;
+    transform: rotate(720deg);
+}
+
