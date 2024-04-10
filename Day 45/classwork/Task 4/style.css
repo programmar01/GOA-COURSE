@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+}
+@media  and (min-width: 600px) {
+    body{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
