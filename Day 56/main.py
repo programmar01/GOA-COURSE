@@ -63,3 +63,140 @@
 #//////////////////////////////////////////////////////////
 
 #fourth
+
+#////////////////////////////
+
+# def fake_bin(x):
+#     string = ""
+#     for i in x:
+#         if int(i) >=5:
+#             string += "1"
+#         else:
+#             string += "0"
+#     return string
+
+#////////////////////////////
+
+#////////////////////////////////////////////////////////
+
+#fifth
+
+
+
+#////////////////////////////
+
+# def count_by(x, n):
+#     listn = []
+#     for i in range(1,n+1):
+#         listn.append(i*x)
+#     return listn
+
+#///////////////////////////
+
+
+#7kiu first
+
+# def to_jaden_case(string):
+#     x = string.split()
+#     listn = []
+#     for i in x:
+#         listn.append(i.capitalize())
+#     return " ".join(listn)
+
+
+#7kiu second
+
+# def accum(st):
+#     sum = 0
+#     num = 1
+#     string = ""
+#     for i in st:
+#         string += i.upper() + i.lower() * sum + " "
+#         sum += 1
+#     y = string.split()
+#     return "-".join(y)
+
+
+
+#////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+#6 kiu first
+
+
+# def solution(number):
+#     sum = 0
+#     for i in range(1,number):
+#         if i % 3 == 0 or i % 5 == 0:
+#             sum += i
+#         if number < 0:
+#             return 0
+#     return sum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#6kiu last
+
+#////////////////////////////////////////////////////////
+
+# def likes(names):
+#     n = len(names)
+#     if not names:
+#         return "no one likes this"
+#     if n == 1:
+#         return f"{names[0]} likes this"
+#     if n == 2:
+#         return f"{names[0]} and {names[1]} like this"
+#     if n == 3:
+#         return f"{names[0]}, {names[1]} and {names[2]} like this"
+
+    
+#     return f"{names[0]}, {names[1]} and {n - 2} others like this"
+
+#////////////////////////////////////////////////////////
+
+#//////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+#dificult 
+
+
+# def is_pangram(s):
+#     y = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+#     count = 0
+#     x = set()
+#     for z in s.lower():
+#         if z in y:
+#             x.add(z)
+#         else:
+#             pass
+#     for i in x:
+#         count += 1
+#     if count == 26:
+#         return True
+#     else:
+#         return False
+    
