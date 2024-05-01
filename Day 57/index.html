@@ -1,0 +1,72 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        const myInfo = {
+            name: "mate",
+            email: "matedolidze232@gmail.com",
+            age: 15,
+            work:
+                {
+                    money: 100000,
+                    workTime: "3hr"
+                }
+            
+        }
+
+        myInfo.work.money = 1000000000000;
+        myInfo.workTime = "2hr";
+
+        console.dir(myInfo.name);
+        console.dir(myInfo.email);
+        console.dir(myInfo.work.money);
+        console.dir(myInfo.work.workTime);
+    </script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <input type="text" id="background-color-input" placeholder="Please enter bgcolor"/>
+        <input type="text" id="width-input" placeholder="Please enter width"/>
+        <input type="text" id="height-input" placeholder="Please enter hight"/>
+        <button type="button" id="button" onclick="changeP()">Submit</button>
+    </form>
+
+    <div id="change-div"></div>
+
+    <script>
+        const backgroundColor = document.getElementById("background-color-input");
+        const widthInput = document.getElementById("width-input");
+        const heightInput = document.getElementById("height-input");
+        const div = document.getElementById("change-div");
+        const btn = document.getElementById("button");
+
+        function changeP(){
+            div.style.backgroundColor = backgroundColor.value;
+            div.style.width = widthInput.value;
+            div.style.height = heightInput.value;
+        }
+    </script>
+
+</body>
+</html>

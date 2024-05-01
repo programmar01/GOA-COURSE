@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Example</title>
+</head>
+<body>
+
+<!-- <button id="alBox">Click Me</button> -->
+
+<button id="colorButton">Change Color</button>
+<p id="colorChanger">This is a paragraph.</p>
+
+<script>
+document.getElementById("colorButton").addEventListener("click", function() {
+    colorChanger();
+  });
+  
+  function colorChanger() {
+    const paragraph = document.getElementById("colorChanger");
+    paragraph.style.color = "green";
+  }
+</script>
+
+<script src="./script.js"></script>
+
+
+
+</body>
+</html>
