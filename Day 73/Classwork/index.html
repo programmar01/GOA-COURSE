@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent-container{
+            position: relative;
+            display: flex;
+            width: 500px;
+            height: 500px;
+            background-color: green;
+            gap: 2rem;
+        }
+        #child-container{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: aliceblue;
+            font-size: 5rem;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent-container">
+        <div id="child-container">1</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
