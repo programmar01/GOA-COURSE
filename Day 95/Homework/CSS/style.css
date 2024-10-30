@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main img{
+    width: 20%;
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#main div{
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
