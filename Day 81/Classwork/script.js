@@ -1,6 +1,6 @@
 const people = [
     {   
-        name: "data",
+        name: "mate",
         age: 17
     },
     {
